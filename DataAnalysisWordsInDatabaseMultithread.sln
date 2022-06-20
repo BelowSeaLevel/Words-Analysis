@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnalysisWordsInDatabaseMultithread", "DataAnalysisWordsInDatabaseMultithread\DataAnalysisWordsInDatabaseMultithread.csproj", "{DE094463-6F57-4185-B7E5-0AA3B95EDF43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE094463-6F57-4185-B7E5-0AA3B95EDF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE094463-6F57-4185-B7E5-0AA3B95EDF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE094463-6F57-4185-B7E5-0AA3B95EDF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE094463-6F57-4185-B7E5-0AA3B95EDF43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21FA93B1-113C-44F9-A470-5327C7ADD052}
+	EndGlobalSection
+EndGlobal

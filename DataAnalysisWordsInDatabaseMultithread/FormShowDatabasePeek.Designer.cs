@@ -1,0 +1,63 @@
+﻿namespace DataAnalysisWordsInDatabaseMultithread
+{
+    partial class FormShowDatabasePeek
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.DataGridViewDatabasePeek = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewDatabasePeek)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // DataGridViewDatabasePeek
+            // 
+            this.DataGridViewDatabasePeek.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridViewDatabasePeek.Location = new System.Drawing.Point(12, 12);
+            this.DataGridViewDatabasePeek.Name = "DataGridViewDatabasePeek";
+            this.DataGridViewDatabasePeek.RowHeadersWidth = 51;
+            this.DataGridViewDatabasePeek.RowTemplate.Height = 24;
+            this.DataGridViewDatabasePeek.Size = new System.Drawing.Size(745, 234);
+            this.DataGridViewDatabasePeek.TabIndex = 0;
+            this.DataGridViewDatabasePeek.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewDatabasePeek_CellContentClick);
+            // 
+            // FormShowDatabasePeek
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(769, 270);
+            this.Controls.Add(this.DataGridViewDatabasePeek);
+            this.Name = "FormShowDatabasePeek";
+            this.Text = "Database data";
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewDatabasePeek)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView DataGridViewDatabasePeek;
+    }
+}
